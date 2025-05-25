@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: FFF2EB;
+}
+#box{
+  background-color:FFDCDC;
+  gap: 15px;
+  width: 400px;
+  height: 500px;
+ 
+}
+h1 {
+  transition: color 0.3s ease;
+}
+.color-buttons {
+  
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+button {
+  
+   
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+#redButton {
+  background-color: #e74c3c;
+}
+#greenButton {
+  background-color: #2ecc71;
+}
+#blueButton {
+  background-color: #3498db;
+}
+#purpleButton {
+  background-color: #9b59b6;
+}
+#resetButton {
+  background-color: #34495e;
+}
